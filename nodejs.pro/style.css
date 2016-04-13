@@ -1,3 +1,17 @@
+#main {
+  text-align: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+#home-intro {
+  margin-top: 50px;
+  padding: 10px;
+}
+ul#menu li {
+  display: inline;
+}
 #container {
   background-image: url(/home/simplonco/Nodejs/nodejs.pro/img/background.png);
   width: auto;
@@ -46,4 +60,49 @@ img {
 }
 .austin:hover {
   background-color: #43853d;
+}
+.footer {
+  background-color: #333333;
+}
+.footer p {
+  color: white;
+}
+.footer h5 {
+  color: white;
+  font-size: 13px;
+}
+.footer p a {
+  color: #A4A4A4;
+  font-size: 13px;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+.footer a span {
+  color: #307C41;
+  font-size: 20px;
+}
+li {
+  list-style-type: none;
+  position: relative;
+  float: right;
+  margin: 5px;
+  padding: 3px;
+}
+.line {
+  border-right: 1px solid #A4A4A4;
+  border-left: 1px solid #A4A4A4;
+}
+.container {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+div a {
+  font-size: 30px;
+}
+div li a {
+  font-size: 10px;
 }
