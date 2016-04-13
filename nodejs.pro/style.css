@@ -1,0 +1,51 @@
+/*merdi parti*/
+header {
+    background-color:black;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0
+}
+.container{
+  width: 100%;
+max-width: 980px;
+margin: 0 auto;
+overflow: hidden;
+}
+#logo{display: block;
+border: none;
+}
+#logo{
+  background-color: transparent;
+  text-decoration: overline;
+}
+#logo img{
+  display: block;
+  margin: 5em auto 0 auto;
+  border: none;
+  max-height: 75px; max-width:180px;
+}
+.list-divider-pipe li {
+    display: inline-block;
+      box-sizing: border-box;
+      text-align: center;
+  }
+.list-divider-pipe li + li::before {
+    content: "|";
+    padding: 0px 0.3em 0px 0.1em;
+    color: #999;
+}
+.list-divider-pipe li + li::after{
+    content: '|';
+    padding: 0 .3em 0 .1em;
+    margin:5px;
+}
+a:active{
+  padding: 0px 8px;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: blue;
+}
+ul{text-align: center;
+text-transform: uppercase;
+padding: 0 10px 5px 0px;
+}
