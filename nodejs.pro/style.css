@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 #main {
   text-align: center;
@@ -12,3 +13,54 @@ padding: 10px;
 }
 ul#menu li {
     display:inline;}
+=======
+#container {
+  background-image: url(/home/simplonco/Nodejs/nodejs.pro/img/background.png);
+  width: auto;
+  height: 195px;
+  flex: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+img {
+  width: 404px;
+  height: 110px;
+}
+#europe {
+  margin: 20px 10px 20px 20px;
+}
+#node {
+  position: relative;
+}
+#interactive {
+  color: white;
+  font-family: arial;
+  font-size: 36px;
+  position: absolute;
+  right: 1px;
+  top: 95px;
+}
+#pantone {
+  padding: 0 90px 0 20px;
+  width: 356px;
+  height: 155px;
+}
+#austin {
+  margin: 20px 10px 20px 20px;
+}
+.europe {
+  width: 444px;
+  height: 150px;
+}
+.austin {
+  width: 444px;
+  height: 150px;
+}
+.europe:hover {
+  background-color: #43853d;
+}
+.austin:hover {
+  background-color: #43853d;
+}
+>>>>>>> b6126df78119bdf41733a117bfaf5228a5580712
